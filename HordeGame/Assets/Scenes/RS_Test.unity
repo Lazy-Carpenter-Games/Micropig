@@ -401,8 +401,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCameraObject: {fileID: 170203727}
   playerAnimator: {fileID: 0}
-  lookSpeed: 10
   walkSpeed: 10
+  turnSpeed: 0.25
 --- !u!4 &693957918
 Transform:
   m_ObjectHideFlags: 0
