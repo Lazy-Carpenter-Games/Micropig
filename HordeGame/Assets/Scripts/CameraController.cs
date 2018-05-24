@@ -62,8 +62,8 @@ public class CameraController : MonoBehaviour
         Vector3 negDistance = new Vector3(0f, 0f, -distance);
         Vector3 position = rotation * negDistance + playerTransform.position;
 
-        transform.rotation = Quaternion.Lerp(transform.rotation, rotation, cameraLag);
-        transform.position = Vector3.Lerp(transform.position, position, cameraLag);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, cameraLag);
+        transform.position = Vector3.Slerp(transform.position, position, cameraLag);
     }
 
 }
