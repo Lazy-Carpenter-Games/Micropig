@@ -207,10 +207,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 693957918}
-  smoothFactor: 0.192
-  rotationSpeed: 0.3
-  LookAtPlayer: 1
-  RotateAroundPlayer: 1
+  rotationSpeed: 10
+  joystickRotationSpeed: 150
+  cameraLag: 0.25
 --- !u!1 &674896348
 GameObject:
   m_ObjectHideFlags: 0
